@@ -327,8 +327,6 @@ PRODUCT_PACKAGES += \
     init.power.rc \
     init.qcom.rc \
     init.qcom.early_boot.sh \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
@@ -366,7 +364,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/qcom/opensource/usb/etc
 
 # Dependencies 
 PRODUCT_PACKAGES += \
@@ -399,6 +398,10 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
+
+PRODUCT_PACKAGES += \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh
 
 # Vibrator
 PRODUCT_PACKAGES += \
