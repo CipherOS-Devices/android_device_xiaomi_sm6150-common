@@ -302,8 +302,12 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GCamGo \
-    Via \
+    GCamGo
+    
+ifneq ($(CIPHER_GAPPS), true)
+PRODUCT_PACKAGES += \
+    Via
+endif
 
 # QTI
 PRODUCT_COPY_FILES += \
