@@ -18,6 +18,8 @@ BOARD_VENDOR := xiaomi
 
 COMMON_PATH := device/xiaomi/sm6150-common
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
