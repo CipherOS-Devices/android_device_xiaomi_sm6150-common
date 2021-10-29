@@ -18,6 +18,8 @@ BOARD_VENDOR := xiaomi
 
 COMMON_PATH := device/xiaomi/sm6150-common
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
