@@ -296,7 +296,6 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c
 
 
 # IMS - from LA.UM.9.1.r1-10200-SMxxx0.0
-system_ext/lib64/lib-imsvideocodec.so|ba0a0696b468ee2458c196b3d252656d20eb197f
 system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
 system_ext/lib64/lib-imsvtutils.so|594714eb04346ca3e864b022251f866f85f0393d
@@ -353,6 +352,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|bca488a80cd89cbdc2f825d9a4c2c5963e5
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|38a159f3e564dccbfb9d5170ea2ce8da49cb919f
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|475399d77e7cb8ae304373eb0381e8e9c12af355
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
+
+# IMS - from LA.UM.9.1.r1-10200-SMxxx0.0 and patched
+system_ext/lib64/lib-imsvideocodec.so|7cd1c0e0be77e95164a894e8c17aa72146b0cea6
 
 # IPA
 vendor/etc/init/ipa_fws.rc
