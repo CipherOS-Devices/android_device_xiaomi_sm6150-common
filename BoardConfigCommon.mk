@@ -20,7 +20,6 @@ COMMON_PATH := device/xiaomi/sm6150-common
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
