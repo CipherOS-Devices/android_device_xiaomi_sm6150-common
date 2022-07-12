@@ -1,0 +1,14 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "alibei/android_kernel_xiaomi_sm6150",
+        "target_path":  "kernel/xiaomi/sm6150",
+        "revision":     "twelve-L"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "alibei/android_vendor_xiaomi_sm6150-common",
+        "target_path":  "vendor/xiaomi/sm6150-common",
+        "revision":     "twelve-L"
+    },
+]
